@@ -1,0 +1,26 @@
+*.pyc
+*.sw[op]
+examples/*.png
+build/*
+dist/*
+*.egg-info/
+.ipynb_checkpoints
+tmtags
+tags
+.DS_Store
+.cache
+# IntelliJ IDE
+.idea
+*.iml
+
+# Sphinx
+_build
+
+# Merge tool
+*.orig
+
+# Test artifacts
+mcmc.sqlite
+
+# Docker development
+# notebooks/
