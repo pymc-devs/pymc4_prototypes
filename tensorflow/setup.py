@@ -7,6 +7,6 @@ if __name__ == '__main__':
         packages=setuptools.find_packages(),
         description='PyMC4 tensorflow',
         author='PyMC team',
-        install_requires=['mxnet'],
+        install_requires=['tensorflow'],
         tests_require=['pytest', 'pytest-cov']
     )
