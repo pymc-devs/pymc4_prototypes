@@ -5,7 +5,7 @@ if __name__ == '__main__':
         name='pymc4_torch',
         version='4.0.0',
         packages=setuptools.find_packages(),
-        description='PyMC4 mxnet',
+        description='PyMC4 pytorch',
         author='PyMC team',
         install_requires=['mxnet'],
         tests_require=['pytest', 'pytest-cov']
